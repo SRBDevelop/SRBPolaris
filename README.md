@@ -6,11 +6,13 @@
 - Memory timing strap editor
 - Unlock RX460 additional shaders
 
+[Download SRBPolaris BIOS editor for RX](https://github.com/SRBDevelop/SRBPolaris/)
+-------------------------------------------------
 ## How to Start
 
 ### Step 1 - Download the program
 
-Official sources for download only: GitHub and the forum of the author of the program - BitcoinTalk.
+Official sources for download only.
 
 ### Step 2 - Configure the program
 
