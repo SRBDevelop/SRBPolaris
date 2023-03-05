@@ -1,8 +1,4 @@
-# SRBPolaris
-
-SRBPolaris V3.2 by d0kt0r
-
-BIOS editor for RX 460/470/480, RX 460/470/580 video cards.
+# SRBPolaris V3.5 - BIOS editor for RX 460/470/480, RX 460/470/580 video cards.
 
 - Copy memory straps fast and easy
 - Set default GPU and MEM clocks
@@ -10,14 +6,60 @@ BIOS editor for RX 460/470/480, RX 460/470/580 video cards.
 - Memory timing strap editor
 - Unlock RX460 additional shaders
 
-Donations :
+## How to Start
 
-BTC : 15nK4XRb6PZzXMoxyuEMnDm1oyx92pUqZY
-ETH : 0x1ac47bac4f9bc9a91c47841dbe36ae5e0b21135e
+### Step 1 - Download the program
 
+Official sources for download only: GitHub and the forum of the author of the program - BitcoinTalk.
 
+### Step 2 - Configure the program
 
-What's new ?
+Open the BIOS file of your video card.
+
+![4](https://user-images.githubusercontent.com/127048730/222979059-e678be95-6a88-498e-89f9-01d9a1c740f5.png)
+
+![5](https://user-images.githubusercontent.com/127048730/222979068-5fed331d-9378-4d5d-9d82-e5c9d61cb39f.png)
+
+### Step 3 - Start flashing Bios
+
+You have now successfully completely modified your Polaris graphics card and reduced the voltage.
+
+## Program description
+
+Such a program provides the ability to flash video cards, which guarantees you subsequently stable operation without interruptions and other problems. This is necessary to increase the performance of a gpu in mining and not only.
+
+Variety of cards are supported: from and to RX580.
+
+### The main features of SRBPolaris are:
+
+    unlocking the backup shaders;
+    Copy memory straps fast and easy
+    copying / editing time periods of work,
+    Memory timing strap editor - make your own custom straps
+    Unlock RX460 additional shaders
+    Set GPU voltage
+    Set default GPU and MEM clocks
+    Lot’s of useful stuff
+
+This program is considered convenient, easy to use, and, importantly, it is more suitable for beginners or those who are busy with other things, and who has no time to delve deeply into something and study.
+
+Acceleration of the video card is achieved by changing the initial settings in the BIOS of the video card, which are used by the operating system and application programs that are read during the initialization of the equipment immediately after turning on the computer.
+
+The firmware of video cards for mining gives a significant increase in performance, for example, the flashed RX 570 gives out 30-40% higher speed when mining, in contrast to the non-flashed version. Bypassing the firmware of video cards, you will most likely need to improve the drivers of the operating system.
+
+After flashing, it is extremely simple and convenient to monitor and control the characteristics of the video card using the GPU-Z and HWinfo programs, the main task of which is to demonstrate the voltage, frequencies, load on the video card and many other information that will be extremely useful.
+
+Overclocking can be easily checked in HWinfo by monitoring video memory errors. With a large number of these errors, it is necessary to reduce overclocking by decreasing the operating frequency of the video memory or flashing less aggressive timings.
+SRBPolaris Won’t Start?
+
+The program requires .NET Framework 3.5 (includes .NET 2.0 and 3.0): https://www.microsoft.com/ru-ru/download/details.aspx?id=22
+
+## What's new ?
+
+Latest and last ver. : V3.5
+- Removed donation so no more waiting
+- Added support for a few more cards
+- This is the last version, happy modding
 
 V3.2
 - Added support for bioses that have 3 types of memory
